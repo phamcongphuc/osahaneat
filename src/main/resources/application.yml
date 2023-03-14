@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/osahaneat
+    username: root
+    password: 1234
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: none
+servlet:
+  multipart:
+    max-file-size: 18MB
+    max-request-size: 10MB
+
+jwt:
+  privateKey: xGo1pJtrhcbfUFeOlcwXVLZIYDXxhWgyDgm0jwvBDqY
+upload:
+  path: D:\java\osahaneat\upload
+
+redis:
+  host: localhost
+  port: 6380
